@@ -2,4 +2,4 @@
  *
  */
 
-module.exports = require('./lib/font-metrics-parser');
+module.exports = require('./lib/font-metrics');
