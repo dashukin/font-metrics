@@ -64,6 +64,3 @@ JSON data
 }
 ```
 
-
-## Example
-- TBD
