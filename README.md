@@ -1,6 +1,6 @@
 # Font metrics parser
 
-Parsing tool that renders required fonts on canvas and returns fontMetrics data.
+Parsing tool that renders required fonts on canvas and returns fontMetrics data. While fontMetrics object
 
 ## Usage
 - install package
@@ -28,6 +28,7 @@ fontParser.parse(options);
   * debug {Boolean} Show logs.
   * output {String} Output path.
   * filename {String} Output filename.
+  * fontSize {Number} Font size
 * express {Object} Express options
   * port {Number} Express port
 * nightmare {Object} Nightmare options. Accepts any options that are valid for Nightmare initialization.
