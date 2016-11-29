@@ -38,7 +38,29 @@ JSON data
 
 #### Example
 ```javascript
-
+{
+    "Arial": {
+        "_fontSize": "24px",
+        "_textBaseline": "alphabetic",
+        "actualBoundingBoxAscent": 0,
+        "actualBoundingBoxDescent": 24,
+        "actualBoundingBoxLeft": 0,
+        "actualBoundingBoxRight": 93,
+        "alphabeticBaseline": 0,
+        "emHeightAscent": 0,
+        "emHeightDescent": 0,
+        "fontBoundingBoxAscent": 22,
+        "fontBoundingBoxDescent": 5,
+        "hangingBaseline": -17.600000381469727,
+        "ideographicBaseline": 5,
+        "width": 93.375
+    },
+    "__initialFonts": [
+        {
+            "fontFamily": "Arial"
+        }
+    ]
+}
 ```
 
 
