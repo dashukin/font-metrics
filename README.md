@@ -17,7 +17,7 @@ var fontParser = require('font-metrics')
 ```
 - call parse method
 ```javascript
-fontParser.parse(options);
+fontParser(options).parse();
 ```
 
 ## Options
