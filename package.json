@@ -1,6 +1,6 @@
 {
   "name": "font-metrics",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Node.js font metrics parser",
   "main": "index.js",
   "scripts": {
@@ -29,10 +29,13 @@
     "url": "https://github.com/dashukin/font-metrics/issues"
   },
   "homepage": "https://github.com/dashukin/font-metrics#readme",
-  "devDependencies": {
+  "dependencies": {
     "bluebird": "^3.4.6",
     "express": "^4.14.0",
     "lodash": "^4.17.2",
     "nightmare": "^2.8.1"
+  },
+  "devDependencies": {
+    
   }
 }
