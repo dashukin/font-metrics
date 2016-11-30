@@ -1,6 +1,7 @@
 # Font metrics parser
 
-Parsing tool that renders required fonts on canvas and returns fontMetrics data. While fontMetrics object
+Javascript tool for parsing font metrics data.
+Each font is loaded via CSS Font Loading API and then parsed from canvas in Chromium browser with `experimentalCanvasFeatures` set to `true`
 
 ## Usage
 - install package
