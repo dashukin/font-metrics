@@ -21,14 +21,13 @@ fontParser(options).parse();
 ```
 
 ## Options
-* parser {Object} Parser options
-  * fonts {Object[]} Array of objects.
-  * fonts.fontFamily {String} font-family
-  * [fonts.src] {String} Custom fonts are expected to have `src` value specified. Each font will be loaded via CSS Font Loading API and then parsed.
-  * debug {Boolean} Show logs.
-  * output {String} Output path.
-  * filename {String} Output filename.
-  * fontSize {Number} Font size
+* fonts {Object[]} Array of objects.
+* fonts.fontFamily {String} font-family
+* [fonts.src] {String} Custom fonts are expected to have `src` value specified. Each font will be loaded via CSS Font Loading API and then parsed.
+* debug {Boolean} Show logs.
+* output {String} Output path.
+* filename {String} Output filename.
+* fontSize {Number} Font size
 * express {Object} Express options
   * port {Number} Express port
 * nightmare {Object} Nightmare options. Accepts any options that are valid for Nightmare initialization.
@@ -40,23 +39,25 @@ JSON data
 #### Example
 ```javascript
 {
-    "Arial": {
-        "_fontSize": "24px",
-        "_textBaseline": "alphabetic",
-        "actualBoundingBoxAscent": 0,
-        "actualBoundingBoxDescent": 24,
-        "actualBoundingBoxLeft": 0,
-        "actualBoundingBoxRight": 93,
-        "alphabeticBaseline": 0,
-        "emHeightAscent": 0,
-        "emHeightDescent": 0,
-        "fontBoundingBoxAscent": 22,
-        "fontBoundingBoxDescent": 5,
-        "hangingBaseline": -17.600000381469727,
-        "ideographicBaseline": 5,
-        "width": 93.375
+    "metrics": {
+        "Arial": {
+            "_fontSize": 24,
+            "_textBaseline": "alphabetic",
+            "actualBoundingBoxAscent": 0,
+            "actualBoundingBoxDescent": 24,
+            "actualBoundingBoxLeft": 0,
+            "actualBoundingBoxRight": 93,
+            "alphabeticBaseline": 0,
+            "emHeightAscent": 0,
+            "emHeightDescent": 0,
+            "fontBoundingBoxAscent": 22,
+            "fontBoundingBoxDescent": 5,
+            "hangingBaseline": -17.600000381469727,
+            "ideographicBaseline": 5,
+            "width": 93.375
+        }
     },
-    "__initialFonts": [
+    "src": [
         {
             "fontFamily": "Arial"
         }
