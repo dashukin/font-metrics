@@ -81,21 +81,21 @@ fontMetrics({
             "width": 93.375
         },
         "Roboto": {
-                    "_fontSize": 24,
-                    "_textBaseline": "alphabetic",
-                    "actualBoundingBoxAscent": 0,
-                    "actualBoundingBoxDescent": 24,
-                    "actualBoundingBoxLeft": 0,
-                    "actualBoundingBoxRight": 85,
-                    "alphabeticBaseline": 0,
-                    "emHeightAscent": 0,
-                    "emHeightDescent": 0,
-                    "fontBoundingBoxAscent": 22,
-                    "fontBoundingBoxDescent": 6,
-                    "hangingBaseline": -17.600000381469727,
-                    "ideographicBaseline": 6,
-                    "width": 85.30078125
-                }
+			"_fontSize": 24,
+			"_textBaseline": "alphabetic",
+			"actualBoundingBoxAscent": 0,
+			"actualBoundingBoxDescent": 24,
+			"actualBoundingBoxLeft": 0,
+			"actualBoundingBoxRight": 85,
+			"alphabeticBaseline": 0,
+			"emHeightAscent": 0,
+			"emHeightDescent": 0,
+			"fontBoundingBoxAscent": 22,
+			"fontBoundingBoxDescent": 6,
+			"hangingBaseline": -17.600000381469727,
+			"ideographicBaseline": 6,
+			"width": 85.30078125
+		}
     },
     "src": [
         {
