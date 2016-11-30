@@ -1,6 +1,6 @@
 {
   "name": "font-metrics",
-  "version": "0.3.1!",
+  "version": "0.3.11",
   "description": "Node.js font metrics parser",
   "main": "index.js",
   "scripts": {
