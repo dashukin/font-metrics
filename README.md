@@ -36,7 +36,30 @@ fontParser(options).parse();
 ## Returns
 JSON data
 
-#### Example
+#### Usage example
+
+```javascript
+var fontMetrics = require('font-metrics');
+
+fontMetrics({
+	fonts: [
+		{
+			fontFamily: 'Arial'
+		},
+		{
+			fontFamily: 'Roboto',
+			src: 'https://fonts.gstatic.com/s/roboto/v15/sTdaA6j0Psb920Vjv-mrzH-_kf6ByYO6CLYdB4HQE-Y.woff2'
+		}
+	],
+	output: './metrics/',
+	filename: 'metrics.json',
+	express: {
+		port: 3412
+	}
+}).parse();
+```
+
+#### Output example
 ```javascript
 {
     "metrics": {
@@ -55,7 +78,23 @@ JSON data
             "hangingBaseline": -17.600000381469727,
             "ideographicBaseline": 5,
             "width": 93.375
-        }
+        },
+        "Roboto": {
+                    "_fontSize": 24,
+                    "_textBaseline": "alphabetic",
+                    "actualBoundingBoxAscent": 0,
+                    "actualBoundingBoxDescent": 24,
+                    "actualBoundingBoxLeft": 0,
+                    "actualBoundingBoxRight": 85,
+                    "alphabeticBaseline": 0,
+                    "emHeightAscent": 0,
+                    "emHeightDescent": 0,
+                    "fontBoundingBoxAscent": 22,
+                    "fontBoundingBoxDescent": 6,
+                    "hangingBaseline": -17.600000381469727,
+                    "ideographicBaseline": 6,
+                    "width": 85.30078125
+                }
     },
     "src": [
         {
