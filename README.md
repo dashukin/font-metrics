@@ -133,6 +133,10 @@ fontMetrics({
 		{
 			"fontFamily": "Roboto",
 			"src": "https://fonts.gstatic.com/s/roboto/v15/sTdaA6j0Psb920Vjv-mrzH-_kf6ByYO6CLYdB4HQE-Y.woff2"
+		},
+		{
+			"fontFamily": "SteelworksVintageDemo",
+			"src": "mounted-path/SteelworksVintageDemo.otf"
 		}
 	]
 }
